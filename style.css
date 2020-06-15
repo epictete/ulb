@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     background-color: #053461;
     color: white;
-    padding: 20px;
+    padding: 25px;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -18,18 +28,13 @@ header blockquote {
     text-align: right;
 }
 
-header a {
-    text-decoration: none;
-    color: white;
-}
-
 main {
     width: 85%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
-.présentation {
-    padding-top: 50px;
+h1 {
+    color: #999999;
 }
 
 .colonnes {
@@ -41,20 +46,26 @@ main {
     padding-top: 50px;
 }
 
-.social-icons {
+footer {
+    background-color: #053461;
+    color: white;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+footer .copy {
+    font-size: smaller;
     display: flex;
-    align-items: stretch;
+    align-items: center;
+}
+
+footer .social {
+    text-align: right;
 }
 
 .social-icons img {
-    background-color: #053461;
-    padding: 10px;
     max-width: 30px;
     max-height: 30px;
-    border-radius: 10px;
-    margin: 2px;
-}
-
-footer {
-    background-color: #053461;  
+    margin: 5px;
 }
