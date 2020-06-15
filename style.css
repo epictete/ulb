@@ -1,3 +1,60 @@
-body {
-    background-color: ;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    background-color: #053461;
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+header blockquote {
+    padding-top: 70px;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.présentation {
+    padding-top: 50px;
+}
+
+.colonnes {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.colonnes > div > div {
+    padding-top: 50px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: stretch;
+}
+
+.social-icons img {
+    background-color: #053461;
+    padding: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+footer {
+    background-color: #053461;  
 }
